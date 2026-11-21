@@ -10,8 +10,8 @@
 import { appHome, readTextFile, shared, setShared } from "herdr";
 import { slashes } from "./store.js";
 
-export const REPO = "https://github.com/petertornstrand/herdr-diagrams";
-const REMOTE = "https://raw.githubusercontent.com/petertornstrand/herdr-diagrams/main/mods/diagrams/mod.json";
+export const REPO = "https://github.com/petertornstrand/herdr-app-diagrams";
+const REMOTE = "https://raw.githubusercontent.com/petertornstrand/herdr-app-diagrams/main/mods/diagrams/mod.json";
 const KEY = "diagrams.update";
 const DAY = 86400000, HOUR = 3600000;
 
